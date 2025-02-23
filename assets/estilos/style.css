@@ -22,9 +22,10 @@ body, html{
     background-color: white;
     margin: auto;
     margin-top: 20px;
-    background-color: var(--grey-700);
+    background-color: var(--grey-800);
     border-radius: 20px;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 .image-pessoa img{
@@ -56,17 +57,25 @@ body .descricao-pessoa{
     margin: 20px;
 }
 
-.redes-sociais{
+.container a{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
-    height: 40px;
-    background-color: var(--grey-800);
-    border-radius: 15px;
-    margin: 10px;
+    background-color: var(--grey-700);
+    border-radius: 10px;
+    margin: 10px;  
+    text-decoration: none;
+    padding: 15px;
     color: white;
-    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+}
+
+.redes-sociais{
+    width: 90%;
+}
+
+.redes-sociais a:hover{
+    background-color: var(--ligth-gren);
+    color: var(--grey-900);
 }
